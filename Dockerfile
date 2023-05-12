@@ -1,4 +1,4 @@
-FROM alpine:3.17
+FROM alpine:3
 
 RUN apk --no-cache add build-base ruby-dev
 RUN apk --no-cache add curl
